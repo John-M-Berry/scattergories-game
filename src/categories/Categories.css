@@ -1,0 +1,53 @@
+.Categories {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.Categories-Main {
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid orange;
+    width: 70%;
+}
+
+.Categories-Main-Top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.Categories-Main-Display {
+    display: flex;
+    height: 85%;
+    margin: 0 60px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 30px;
+}
+
+.Categories-Secondary {
+    background-color: rgb(0, 107, 139);
+    display: flex;
+    align-items: center;
+    width: 30%;
+    border: 2px solid orange;
+    font-size: 30px;
+}
+
+.Categories-Secondary:hover {
+    color: orange;
+    background-color: rgb(0, 0, 170);
+    cursor: pointer;
+}
+
+.Categories-Secondary-h1 {
+    text-align: center;
+}
+
+.hide {
+    background-color: black;
+}
